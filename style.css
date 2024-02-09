@@ -1,0 +1,855 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.section1{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.section1 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+}
+
+.logobtn{
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    background-color: transparent;
+    outline: none;
+    padding: 1vw 2vw;
+    letter-spacing: 10px;
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.logobtn:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 1.5vw;
+}
+
+nav a:hover{
+    text-decoration: line-through;
+}
+
+.logo{
+    position: absolute;
+    top: 30%;
+    left: 2vw;
+}
+
+.logo h1{
+    font-size: 13vw;
+    letter-spacing: 2px;
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.downleft{
+    position: absolute;
+    bottom: 8%;
+    left: 2vw;
+    color: #fff;
+    font-weight: 900;
+}
+
+
+.downleft img{
+    width: 50px;
+    margin-top: 50px;
+    position: fixed;
+    bottom: 12vw;
+    z-index: 999;
+}
+
+.downleft h1{
+    font-weight: 900;
+    font-size: 2.8vw;
+}
+
+.downright{
+    position: absolute;
+    bottom: 6%;
+    right: 2vw;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.downright button{
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    background-color: transparent;
+    outline: none;
+    padding: 1vw 2vw;
+    /* letter-spacing: 10px; */
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 50px;    
+}
+
+.downright button{
+    margin-bottom: 1vw;
+}
+
+/* section1 ends  */
+
+.section2{
+    width: 100%;
+    /* height: 100vh; */
+    /* border: 2px solid red; */
+    padding-bottom: 10vh;
+}
+    
+.cnte{
+    width: 100%;
+    padding-top: 7vw;
+    font-size: 5vw;
+    text-align: center;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 9vw;
+    position: relative;
+}
+
+.cnte span{
+    background-color: #fff;
+    color: #000;
+    padding: 2vw 1vw;
+    font-size: 2vw;
+    border-radius: 40px;
+    box-shadow: 0 0 5px #000;
+    position: fixed;
+    /* bottom: 10%; */
+    top: 70%;
+    right: 5%;
+    z-index: 999;
+}
+
+.cnte span a{
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    /* display: none; */
+}
+
+.flexxy{
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.flexxy .one{
+    width: 10%;
+}
+
+.one h1{
+    font-size: 4vw;
+    font-weight: 200;
+}
+
+.flexxy .one2{
+    width: 30%;
+}
+
+.one2 p{
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+}
+
+.one2 .logobtn{
+    color: #000;
+    border: 1px solid black;
+    margin-top: 4vw;
+}
+
+.one2 .logobtn:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+.flexxy .one3{
+    width: 45%;
+    height: 600px;
+}
+
+.flexxy .one3 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* section2 ends  */
+
+.section3{
+    width: 100%;
+    padding: 4vw 4.5vw;
+}
+
+.section3 video{
+    width: 90vw;
+}
+
+/* section3 ends  */
+
+.section4{
+    width: 100%;
+    height: 160vh;
+    position: relative;
+    /* border: 1px solid black; */
+}
+
+.image-con{
+    width: 90%;
+    /* height: 110vh; */
+    height: 100%;
+    text-align: end;
+    /* margin: 20vh 0 10vh 20%; */
+    padding: 20% 0 10vh 20%;
+}
+
+.image-con img{
+    width: 100%;
+    height: 100%;
+}
+
+.section4 .text{
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    font-size: 3vw;
+    font-weight: 100;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* section4 ends  */
+
+.section5{
+    width: 100%;
+    color: #fff;
+    background-color: #000;
+    /* border: 2px solid red; */
+    padding: 15vh 0;
+}
+
+.recent{
+    width: 10%;
+    font-size: 2vw;
+}
+
+.explain{
+    width: 30%;
+    font-size: 1.4vw;
+}
+
+.circle{
+    width: 400px;
+    height: 400px;
+    padding: 2vw;
+    border-radius: 50%;
+    position: relative;
+    bottom: -50%;
+    left: -20%;
+    border: 2px solid white;
+}
+
+.box{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vw;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 6%;
+    left: 6%;
+    cursor: pointer;
+    z-index: 2;
+    
+}
+
+.circle p{
+    color: black;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    font-size: 1.7vw;
+    letter-spacing: 3px;
+    z-index: 99;
+    animation: round 14s infinite;
+}
+
+@keyframes round {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.eventboxs{
+    width:55%;
+    text-transform: capitalize;
+}
+
+.section5 .events{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.section5 .borders{
+    border-top: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 0;
+}
+
+.borders:nth-last-child(1){
+    border-bottom: 1px solid white;
+}
+
+.borders h1{
+    font-size: 3vw;
+    /* color: white; */
+}
+
+.borders h1:hover{
+    text-decoration: line-through;
+}
+
+/* section5 ends  */
+
+.section6{
+    width: 100%;
+    height: 50vh;
+}
+
+.section6 h1{
+    text-align: center;
+    font-size: 3.5vw;
+    margin: 2vw 0;
+}
+
+.time{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.line{
+    width: 32%;
+    text-align: center;
+}
+
+.line2{
+    width: 28%;
+}
+
+.line3{
+    width: 28%;
+}
+
+.line p{
+    margin: 2vw 0;
+}
+
+.line span{
+    font-size: 7vw;
+    font-weight: 900;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+    padding-right: 1vw;
+} 
+    
+.line span:hover{
+    background-image: linear-gradient(rgb(134, 21, 21), rgb(33, 209, 33), rgb(11, 11, 184));
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-animation-fill-mode: transparent;
+    /* color: white;
+    border-style: dashed; */
+}
+
+/* section6 ends  */
+
+.section7{
+    width: 100%;
+    height: 70vh;
+    background-image: url(./assets/paint.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section7 marquee{
+    padding-top: 200px;
+    text-align: center;
+    font-size: 7vw;
+    color: #fff;
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* section7 ends  */
+
+.section8{
+    width: 100%;
+    height: 160vh;
+    position: relative;
+    /* border: 1px solid black; */
+}
+
+.image-con{
+    width: 90%;
+    /* height: 110vh; */
+    height: 100%;
+    text-align: end;
+    /* margin: 20vh 0 10vh 20%; */
+    padding: 20% 0 10vh 20%;
+}
+
+.image-con img{
+    width: 100%;
+    height: 100%;
+}
+
+.section8 .text{
+    width: 55%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-size: 3vw;
+    font-weight: 100;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* section8 ends  */
+
+.section9{
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    align-content: center;
+    justify-content: center;
+    /* padding-top: 10vw; */
+}
+
+.h11{
+    width: 100%;
+    height: 15%;
+}
+
+.himg{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+}
+
+.himg h1{
+    position: relative;
+    font-size: 5vw;
+    z-index: 100;
+}
+
+.himg img{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 0%;
+    /* display: block; */
+    display: none;
+    z-index: 2;
+}
+
+.himg .img1{
+    left: 5%;
+}
+
+.himg .img2{    
+    right: 5%;
+}
+
+.himg .img3{
+    left: 5%;
+}
+
+.himg .img4{
+    right: 5%;
+}
+
+.himg .img5{
+    left: 5%;
+}
+
+.head1:hover{
+    cursor: pointer;
+}
+
+.h11 .himg:hover .img1{
+    display: block;
+    cursor: pointer;
+}
+
+.h11 .himg:hover .img2{
+    display: block;
+}
+
+.h11 .himg:hover .img3{
+    display: block;
+}
+
+.h11 .himg:hover .img4{
+    display: block;
+}
+
+.h11 .himg:hover .img5{
+    display: block;
+}
+
+/* section9 ends  */
+
+.section10{
+    width: 100%;
+    padding: 4vw 2vw;
+}
+
+.section10 .experience{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw 0;
+    border-bottom: 2px solid black;
+}
+
+.experience h1{
+    font-size: 4vw;
+    text-transform: capitalize;
+}
+
+.experience h1 span{
+    font-size: 4vw;
+    color: darkgray;
+}
+
+.experience p{
+    width: 30%;
+}
+
+/* section10 ends  */
+
+.section11{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-color: black;
+    padding: 2vw 0;
+}
+
+.packages{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2vw;
+}
+
+.packages h1{
+    font-size: 2.5vw;
+}
+
+.packages .logobtn{
+    padding: 1vw 2vw;
+    letter-spacing: 5px;
+}
+
+.packdetls{
+    width: 100%;
+    /* height: 100%; */
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pac{
+    width: 30%;
+    padding-left: 5%;
+}
+
+.pac:nth-child(2){
+    width: 32%;
+    border-left: 1px solid white;
+}
+
+.pac:nth-child(3){
+    width: 30%;
+    border-left: 1px solid white;
+}
+
+.pac span{
+    font-size: 7vw;
+    font-weight: 900;
+    font-style: oblique;
+}
+
+.pac h1{
+    margin: 1vw 0;
+    font-size: 3vw;
+}
+
+/* section11 ends  */
+
+.section12{
+    width: 100%;
+    padding: 2vw;
+}
+
+.heads{
+    border-bottom: 2px solid black;
+    padding: 3vw;
+}
+
+.section12 h1:nth-child(1){
+    font-size: 2vw;
+    text-align: center;
+}
+
+.section12 h1:nth-child(2){
+    font-size: 5vw;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+/* section12 ends  */
+
+.section13{
+    width: 100%;
+}
+
+.section13 .insta{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+    padding: 2rem;
+}
+
+.insta:nth-child(1) h1{
+    font-size: 3vw;
+    text-transform: capitalize;
+    font-weight: 100;
+}
+
+.insta:nth-child(1) a{
+    font-size: 2vw;
+    color: black;
+}
+
+.insta:nth-child(2){
+    width: 100%;
+    height: 400px;
+    padding: 2rem;
+    color: white;
+    background-color: black;
+}
+
+.insta:nth-child(2) h1{
+    font-size: 3vw;
+    /* text-transform: capitalize;
+    font-weight: 100; */
+}
+
+.insta:nth-child(2) span{
+    font-size: 1.5vw;
+}
+
+.insta:nth-child(2) p{
+    width: 60%;
+    font-size: 2vw;
+}
+
+/* section13 ends  */
+
+.section14{
+    width: 100%;
+    height: 120vh;
+    padding: 2vw;
+}
+
+.section14 .imges{
+    width: 100%;
+    height: 60%;
+}
+
+.section14 .imges img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section14 .texts{
+    padding: 0 2vw;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section14 .texts>h1{
+    font-size: 4vw;
+    font-style: oblique;
+}
+
+.section14 .contct{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+}
+
+
+.section14 .contct a{
+    font-size: 3.5vw;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 2vw;
+}
+
+.section14 .logobtn{
+    margin-top: 1vw;
+    color: black;
+    border: 1px solid black;
+    width: 70%;
+    text-align: end;
+}
+
+.section14 .logobtn:hover{
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+}
+
+/* section14 ends  */
+
+footer{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    padding: 3vw;
+    cursor: pointer;
+}
+
+.foots{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.foot h1{
+    font-size: 1.2vw;
+    letter-spacing: 7px;
+}
+
+.foot ul{
+    margin-top: 2rem;
+}
+
+.foot li{
+    list-style-type: none;
+    line-height: 2rem;
+}
+
+.foot li:hover{
+    text-decoration: line-through;
+}
+
+.foot:nth-child(1) li{
+    text-decoration: underline;
+}
+
+footer .down{
+    margin-top: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .down h1{
+    font-size: 5vw;
+    font-weight: 100;
+    font-style: oblique;
+}
+
+footer .down p:nth-child(2){
+    text-transform: uppercase;
+}
+
+
+
+/* section12 ends  */
+/* section13 ends  */
+/* section14 ends  */
+
+
+/* section2 scetion8 has border issue  */
+/* section2 arrow issue */
